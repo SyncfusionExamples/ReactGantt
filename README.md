@@ -1,19 +1,21 @@
 # React Gantt Chart Demo
 
-A React app demo showing a Syncfusion Gantt chart with editable tasks, custom timelines, event markers, and holiday support.
+## Repository Description
+This repository contains a React application demonstrating the Syncfusion Gantt Chart component for visualizing and managing project schedules with editable tasks and timeline features.
+
 
 ## Overview
 
-This repository includes a small React application that renders a Gantt chart using `@syncfusion/ej2-react-gantt`.
-It demonstrates task hierarchy, toolbar actions, sorting, filtering, selection, and timeline markers.
+This project shows how to integrate the `@syncfusion/ej2-react-gantt` library into a React application. It focuses on core project‑management scenarios such as task hierarchy, scheduling, timeline visualization, and user interaction using built-in Gantt features.
 
 ## Features
 
-- Task hierarchy with subtasks
-- Add/Edit/Delete dialog editing
-- Sorting, filtering, and multiple selection
-- Context menu support
-- Project start/end dates, holidays, and event markers
+- Hierarchical tasks with parent and child relationships
+- Add, edit, and delete tasks using dialog editing
+- Sorting, filtering, and multiple task selection
+- Context menu support for task actions
+- Project dates with holiday and event markers
+
 
 ## Installation
 
@@ -55,12 +57,11 @@ npm run deploy
 
 - Main Gantt chart configuration is in `src/App.js`.
 - `src/index.js` uses `serviceWorker.unregister()` by default.
-- Update `taskFields`, `timelineSettings`, or `editSettings` in `App.js` to customize the chart.
-- The app is built with Create React App and uses Syncfusion React Gantt for UI rendering.
+- Update `taskFields`, `timelineSettings`, or `editSettings` 
 
 ## Dependencies
 
-- `react` `^16.11.0`
-- `react-dom` `^16.11.0`
-- `react-scripts` `3.2.0`
+- `react` `^17.0.1`
+- `react-dom` `^17.0.1`
+- `react-scripts` `5.0.1`
 - `@syncfusion/ej2-react-gantt` `^17.3.19`
