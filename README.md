@@ -1,7 +1,7 @@
 # React Gantt Chart Demo
 
 ## Repository Description
-This repository contains a React application demonstrating the Syncfusion Gantt Chart component for visualizing and managing project schedules with editable tasks and timeline features.
+This repository contains a React application demonstrating the [React Gantt chart](https://www.syncfusion.com/react-components/react-gantt-chart) component for visualizing and managing project schedules with editable tasks and timeline features.
 
 
 ## Overview
@@ -65,3 +65,11 @@ npm run deploy
 - `react-dom` `^17.0.1`
 - `react-scripts` `5.0.1`
 - `@syncfusion/ej2-react-gantt` `^17.3.19`
+
+## Related Links
+
+- [Explore React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart)
+- [Gantt Chart Feature Overview](https://ej2.syncfusion.com/react/documentation/gantt/overview)
+- [React Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/react/documentation/gantt/getting-started)
+- [React Gantt API Documentation](https://ej2.syncfusion.com/react/documentation/api/gantt/)
+- [React Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/react/demos/#/tailwind3/gantt/default)
